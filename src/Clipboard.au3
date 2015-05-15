@@ -28,10 +28,13 @@ Func Limpar()
 	ToolTip ("Funcionando, portapapeis borrado", 0, 0)
 EndFunc
 Func Sobre()
-	MsgBox (0, "Acerca de", "Este programa est· feito por Alfredo GÛmez (agomezgz.me) porque en clase non tiÒa ganas de atender e pensaba que facer isto lle podÌa servir para aprender algo")
-	MsgBox(0, "Acerca de", "Este programa seguramente non teÒa utilidade para a xente normal, ocorrÈuseme facelo cando tiven que copiar varios datos dunha pestana do navegador a outra")
-	MsgBox (0, "Acerca de", "…s libre de descargar o cÛdigo e facer as modificaciÛns que creas precisas, sempre que manteÒas o meu nome nalgunha parte do cÛdigo ;-)")
+	MsgBox (0, "Acerca de", "Este programa est√° feito por Alfredo G√≥mez (agomezgz.me) porque en clase non ti√±a ganas de atender e pensaba que facer isto lle pod√≠a servir para aprender algo")
+	MsgBox(0, "Acerca de", "Este programa seguramente non te√±a utilidade para a xente normal, ocorr√©useme facelo cando tiven que copiar varios datos dunha pestana do navegador a outra")
+	MsgBox (0, "Acerca de", "√âs libre de descargar o c√≥digo e facer as modificaci√≥ns que creas precisas, sempre que mante√±as o meu nome nalgunha parte do c√≥digo ;-)")
 EndFunc
+
+MsgBox(0, "Little Help", "F1 = Copy; F2 = Cut; F3 = Paste; F4 = Clear")
+
 While (1)
 	Sleep (2000)
 	ToolTip ("Funcionando, sen datos no portapapeis", 0, 0)
